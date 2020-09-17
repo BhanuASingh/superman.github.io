@@ -1,0 +1,149 @@
+.branding{
+	font size: 17px;
+	body {background-color: yellow;}
+}
+
+.showcase{
+	background: url("../img/super1.jpg") no-repeat;
+	background-position: center;
+	height: 700px;
+	padding: 140px 200px;
+	color: #fff;
+
+}
+
+.showcase h1{
+	font-family: "lucida calligraphy", cursive, sans-serif;
+	font-size:30px;
+	font-weight: 900;
+	text-transform: uppercase;
+	 text-shadow: 2px 2px;
+	 padding: 50px 0px;
+}
+
+.showcase hr{
+	font-family: "algerian", cursive, sans-serif;
+	width: 100px;
+	margin: auto;
+	border-width: 4px;
+	border-color: #F9E79F;
+}
+
+.showcase p{
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.home {
+	width: 40px;
+	align-content: center;
+}
+.section{
+	padding: 5px 0px;
+	
+}
+ .section .fa{
+ 	font-size: 80px;
+ }
+
+ .section h2{
+ 	padding:0px;
+ 	margin: 0px;
+ }
+
+ .about img{
+ 	width: 100%;
+ }
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion {
+  background-color: #000;
+  color: #FDFEFE;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #F39C12;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.services{
+	width: 100%;
+	padding:0 10px;
+
+}
+.sevices i{
+font-size: 100px;	
+}
+	.showcase .button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.body{
+	background-image: url("metoo.gif");
+  background-color: #cccccc;
+}
+
+.contact h5{
+	
+}

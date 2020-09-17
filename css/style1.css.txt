@@ -1,0 +1,12 @@
+.branding{
+	font size: 17px;
+}
+
+.showcase{
+	background:url('../img/showcase.jpg')no-repeat;
+	background-position: center;
+	height: 600px;
+	padding: 140px 100px;
+	color: #fff;
+
+}
